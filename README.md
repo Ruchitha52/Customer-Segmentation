@@ -1,8 +1,8 @@
-<h2>Mall Customer Segmentation with K-Means Clustering</h2> </br>
+<h2>Mall Customer Segmentation with K-Means Clustering</h2> 
 This project leverages K-Means clustering to analyze and segment mall customer data based on spending behavior and income. By grouping similar customers, we can gain insights into distinct customer profiles, enabling targeted marketing and customized service strategies.
 
-<h2>Dataset Overview</h2> </br>
-The dataset (Mall_Customers.csv) provides essential information about mall customers:</br>
+<h2>Dataset Overview</h2> 
+The dataset (Mall_Customers.csv) provides essential information about mall customers:
 
 CustomerID: A unique identifier for each customer. </br>
 Gender: Male or Female.</br>
@@ -10,10 +10,10 @@ Age: Customer’s age.</br>
 Annual Income: The estimated yearly income (in thousands of dollars).</br>
 Spending Score: A score given by the mall, measuring spending patterns and behavior. </br>
 
-<h2>Project Objective </h2> <br>
+<h2>Project Objective </h2> 
 The main goal of this project is to segment customers into distinct groups based on their Annual Income and Spending Score. Understanding these segments helps businesses create tailored marketing strategies, enhancing engagement and retention.
 
-<h2>Clustering Methodology</h2> </br>
+<h2>Clustering Methodology</h2> 
 <h5> 1. Determining the Optimal Number of Clusters (Elbow Method)</h5> 
 Using the Elbow Method, we examined the Within-Cluster Sum of Squares (WCSS) for different numbers of clusters. The goal was to identify the point at which adding more clusters provided minimal benefit in reducing WCSS, known as the "elbow." </br>
 Outcome: We found that 5 clusters offered an ideal segmentation, effectively balancing variance and simplicity.
